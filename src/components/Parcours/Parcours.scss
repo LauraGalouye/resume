@@ -1,0 +1,139 @@
+.parcours{
+    width : 100vw;
+    background-color: rgb(224, 224, 224);
+    padding : 1px;
+    color: rgb(31,31,101);
+    
+    &__title{
+        font-size: 25px;
+        text-align : center;
+        margin-top : 5%;
+    }
+
+    &__container{
+        max-height: 100%;
+        display : flex;
+        flex-direction : column;
+        justify-content : center;
+        align-items : center;
+        padding : 10%;
+        padding-top: 1%;
+        
+   
+    }
+
+    
+    &__arrow1{
+        width: 160px;
+        height: 30px;
+        position: relative;
+        top :5px;
+        right: 40px;;
+        display: flex;
+        transform: rotate(270deg);
+    }
+        
+    &__arrow1::before {
+        content: "";
+        transform: translate(-50%, -50%);
+        background: rgb(31,31,101);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 15px;
+        height: 15px;
+        clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+        animation: a1 1.8s linear forwards;
+    }
+    @keyframes a1 {
+        0% {
+            flex-grow: 0;
+          }
+          90%, 100% {
+            flex-grow: 1;
+          }
+    }
+      
+    &__arrow2{
+        width: 240px;
+        height: 30px;
+        position: relative;
+        top :2px;
+        right: 80px;;
+        display: flex;
+        transform: rotate(270deg);
+    }
+        
+    &__arrow2::before {
+        content: "";
+        transform: translate(-50%, -50%);
+        background: rgb(31,31,101);
+        width: 15px;
+        height: 15px;
+        clip-path: polygon(0 10px, calc(100% - 15px) 10px, calc(100% - 15px) 0, 100% 50%, calc(100% - 15px) 100%, calc(100% - 15px) calc(100% - 10px), 0 calc(100% - 10px));
+        animation: a1 1.8s linear forwards;
+    }
+    @keyframes a1 {
+        90%,100%{flex-grow: 1}
+    }
+    
+
+    &__box{
+        max-height: 100%;
+        background-color: rgb(212, 212, 222);
+        border-radius: 10px;
+        padding : 5px;
+        margin : 3px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        margin-bottom: 5%;
+        
+    }
+
+
+
+    &__box-title{
+        font-size: 18px;
+        text-align: center;
+        color : rgb(29, 56, 143);
+        border-bottom : solid 1px rgb(127, 158, 152);
+    }
+
+    &__list{
+        position: relative;
+        bottom : 35px;
+    }
+
+    &__box-text{
+        font-size: 15px;
+        text-align: left;
+        margin : 15px;
+        color : rgb(29, 56, 143);
+        list-style-type: none;
+    }
+}
+
+@media screen and (min-width: 530px){
+  
+    .parcours   {
+        &__box-title{
+            font-size: 27px;
+        }
+        &__box-text{
+            font-size: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .parcours{
+        &__title{
+            font-size: 40px;
+        }
+
+        &__box-title{
+            font-size: 30px;
+        }
+        &__box-text{
+            font-size: 23px;
+        }
+    }
+
+}

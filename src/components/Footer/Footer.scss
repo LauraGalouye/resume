@@ -1,0 +1,21 @@
+.footer{
+
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    background: rgba(223, 216, 216, 0.9);
+
+    &__text{
+        margin: auto;
+        font-size: 1.5rem;
+    }
+
+    &__logo{
+        width: 5%;
+        height: 5%;
+        margin: auto;
+    }
+}

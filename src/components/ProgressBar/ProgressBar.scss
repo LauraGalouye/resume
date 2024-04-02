@@ -1,0 +1,50 @@
+.container{
+    width : 300px;
+    margin : auto;
+}
+
+.progress-bar{
+    width : 100%;
+    height : 20px;
+    background-color : #d2d1d1;
+    border-radius : 10px;
+    margin-bottom: 10%;
+}
+
+.progress-bar-fill{
+    height: 100%;
+    border-radius: 10px;
+    color : 'lightsteelblue';
+    transition: 0.4s linear;
+    transition-property: width, background-color;
+}
+
+
+
+
+@media screen and (min-width: 530px){
+  
+    .container{
+        width : 430px;
+
+    }
+}
+
+@media screen and (min-width: 768px){
+    .container{
+        width : 270px;
+    }
+    
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        width : 450px;
+    }
+
+    
+}
+    
+
+ 
+    

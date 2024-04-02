@@ -1,0 +1,223 @@
+.presentation{
+    position: relative;
+    width : 100vw;
+    height : 100vh;
+    background-color: rgb(215, 215, 190);
+    margin-top : 0%;
+    background-image: url("../../assets/office.jpg");
+
+    &__background{
+        position : relative;
+        background-attachment: fixed;
+    
+    }
+    &__container{
+        display: flex;
+        width: 80%;
+        height: 30%;
+        margin: auto;
+        margin-top: 50%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: rgba(199, 199, 191, 0.6);
+        border-radius: 10px;
+        
+ 
+    }
+
+    &__text{
+        width: 50%;
+        height: 100%;
+        color: rgb(25, 25, 101);
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+           
+    }
+
+    &__name{
+        font-weight: bold;
+        font-size: 20px;
+        border-bottom: solid 2px rgb(127, 158, 152);
+    }
+
+    &__job{
+        margin: 0%;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    &__availability{
+        margin: 0%;
+        font-size: 10px;
+        font-style: italic;
+        border-bottom: 1mm ridge rgba(127, 158, 152, 0.25);
+    }
+
+    &__city{
+        margin: 0%;
+        font-size: 10px;
+        text-align: center;
+        font-style: italic;
+        border-bottom: 1mm ridge rgba(127, 158, 152, 0.25);
+    }
+
+    &__download{
+        font-size: 9px;
+        font-style: italic;
+    }
+
+    &__image{
+        width: 50%;
+        max-height:100%;
+        border-left : solid 2px rgb(31,31,101); 
+        padding : none;
+        border-radius: 10px;
+
+    }
+
+    &__logos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+    }
+    &__logo{
+        width : 20px;
+    }
+
+@media screen and (min-width: 530px){
+  
+    .presentation{
+        
+
+    &__container{
+        width: 70%;
+        height: 70%;
+        margin-top: 30%;
+    }
+
+    &__name{
+        font-size: 25px;
+    }
+
+    &__job{
+        font-size: 20px;
+    }
+
+    &__download{
+        font-size: 10px;
+    }
+    
+    &__availability{
+        font-size: 15px;
+    }
+
+    &__city{
+        font-size: 15px;
+    }
+   
+    }
+}
+
+@media screen and (min-width: 768px){
+
+    .presentation{
+       height : 100vh;
+    
+
+    &__container{
+        width: 62%;
+        height: 60%;
+        margin-top: 10%;
+     
+    }
+
+    &__name{
+        font-size: 35px;
+    }
+
+    &__job{
+        font-size: 25px;
+    }
+
+    &__download{
+        font-size: 15px;
+    }
+
+    &__availability{
+        font-size: 18px;
+    }
+
+    &__city{
+        font-size: 18px;
+    }
+    
+    }
+
+}
+
+@media screen and (min-width: 1200px){
+    .presentation{
+      
+
+    &__container{
+        width: 70%;
+        height : 48%;
+        margin-top : 3%;
+        
+    }
+
+    &__text{
+        width: 50%;
+        height: 100%;
+        color: rgb(25, 25, 101);
+        font-size: 150%;
+        display : flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left : 0;
+        padding : 2%;
+    }
+
+    &__name{
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    &__job{
+        font-size: 40px;
+        margin : 30px;
+    }
+
+    &__city{
+        margin: auto;
+        font-size: 22px;
+    }
+
+    &__availability{
+        margin: auto;
+        font-size: 22px;
+    }
+
+    &__download{
+        font-size: 25px;
+        font-style: italic;
+        margin : 60px;
+    }
+
+    &__logo{
+        width : 60px;
+    }
+
+    &__image{
+        width: 50%;
+        max-height:100%;
+        border-left : solid 2px rgb(31,31,101); 
+        padding : none;
+    }
+    
+    }
+ 
+}
+}
