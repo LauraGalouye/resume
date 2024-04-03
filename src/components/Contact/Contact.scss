@@ -11,6 +11,7 @@
         flex-direction : column;
         justify-content : space-around;
         align-items : center;
+        gap : 15px;
         :hover{
             -webkit-transform: scale(1.1);
             transform: scale(1.05);
@@ -47,10 +48,8 @@
         font-weight: bold;
     }   
 
-
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 768px){
         .contact{
-        }
 
         &__container{
             display : flex;
@@ -68,10 +67,32 @@
         }
 
         &__box-text{
+            font-size: 1.2rem;
+        }
+
+        }
+    }
+
+
+    @media screen and (min-width: 1200px){
+        .contact{
+        &__title{
+            font-size: 40px;
+        }
+
+        
+
+        &__box{
+            width: 40%;
+            height: 50%;
+            margin : 2px;
+            gap: 10px;
+        }
+
+        &__box-text{
             font-size: 1.5rem;
         }
 
-       
-        
+        }
     }
 }

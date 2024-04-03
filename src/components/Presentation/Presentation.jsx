@@ -6,8 +6,8 @@ import github from '../../assets/github.svg';
 
 const Presentation = () => {
   return (
-    <section className='presentation'>
-      <div >
+    <section id="accueil" className="presentation" >
+      
         <img className="presentation__background"  alt="" />
         
         <div className='presentation__container'>
@@ -16,7 +16,11 @@ const Presentation = () => {
             <p className="presentation__job">Développeur web</p>
             <p className="presentation__availability">Disponibilité Immédiate</p>
             <p className="presentation__city">Secteur : Toulouse et alentours</p>
-            <p className="presentation__download">Télécharger mon CV</p>
+            <a 
+              href={`../../public/pdf/CV2024.pdf`}
+              download="CV2024.pdf"
+              >
+              <p className="presentation__download">Télécharger mon CV</p></a>
             <div className="presentation__logos">
               <a href="https://github.com/LauraGalouye" target="_blank"><img className="presentation__logo" src={github} alt="logo github" /></a>
               <a href="https://www.linkedin.com/in/laura-galouye-54322223b" target="_blank"><img className="presentation__logo" src={linkedin} alt="logo linkedin" /></a>
@@ -27,7 +31,7 @@ const Presentation = () => {
 
         
 
-      </div>
+      
     </section>
   );
 }

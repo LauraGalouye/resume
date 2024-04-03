@@ -69,7 +69,9 @@
     &__picture{
         width : 145px;
         height :125px;
-        margin : 2px;
+        margin : 3px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
     }
 }
 
@@ -160,8 +162,12 @@
 
     .img{
         &__picture{
-            width : 340px;
-            height: 290px;
+            width : 350px;
+            height: 300px;
+        }
+
+        &__text{
+            font-size: 30px;
         }
     }
 }   
