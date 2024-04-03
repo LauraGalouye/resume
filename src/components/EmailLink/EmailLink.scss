@@ -2,16 +2,19 @@
   display: inline-block;
   margin: 5px;
   background-color: rgb(224, 224, 224);
-  color: black;
+  color: rgb(31, 31, 101);
   text-decoration: none;
-  border: none;
+  font-weight: bold;
+  font-size: 20px;
   padding: 10px 20px;
   border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .email-button:hover {
   background-color: rgb(31, 31, 101);
+  color : white
 }
   
