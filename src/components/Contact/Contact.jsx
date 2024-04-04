@@ -22,7 +22,7 @@ const Contact = () => {
                     <EmailLink className="contact__box-button" email={email}/>
                 </div>
                 <div className="contact__box">
-                    <p className="contact__box-text"> Je suis disponible pour un entretien sur Toulouse et ses environs</p>
+                    <p className="contact__box-text"> Je suis disponible pour un entretien sur Toulouse & ses environs</p>
                 </div>
             </div>
         </section>
