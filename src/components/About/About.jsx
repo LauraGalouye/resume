@@ -10,7 +10,7 @@ const About = () => {
         <section id ="about" className='about'>
             <h1 className="about__title">A propos</h1>
                 <div className="about__container">
-                    <p className="about__container-text">Après avoir travaillé 10 ans dans le domaine de la gestion j'ai décidé de relever le défi du développement web. Mon parcours professionnel antérieur m'a apporté une rigueur organisationnelle et une capacité à résoudre des problèmes complexes, des atouts précieux dans le monde du développement.</p>
+                    <p className="about__container-text">Après avoir travaillé 10 ans dans le domaine de la gestion j'ai décidé de relever le défi du développement web. Mon parcours professionnel antérieur m'a apporté une rigueur organisationnelle et une capacité à résoudre des problèmes complexes, des atouts précieux dans le monde du développement. Ayant la volonté d'élargir mon panel de compétences je profite aujourd'hui du temps dont je dispose pour apprendre de nouvelles technologies, notamment Angular.</p>
 
                     <p className="about__container-subtitle">Centres d'intérêt</p>
                     <div className="about__container-img">

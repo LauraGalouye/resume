@@ -151,7 +151,7 @@
     &__container-text{
         font-size: 20px;
         width : 75%;
-        text-align: center;
+        text-align: justify;
         margin : auto;
     }
 
@@ -161,11 +161,6 @@
     }
 
     .img{
-        &__picture{
-            width : 350px;
-            height: 300px;
-        }
-
         &__text{
             font-size: 30px;
         }

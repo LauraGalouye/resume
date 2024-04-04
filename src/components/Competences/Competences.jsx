@@ -100,7 +100,12 @@ const Competences = () => {
                 </article>
                 <article className="competences__container-box">
                     <p className="competences__name">Logiciels pratiqués: <p className='competences__content'>Prestashop, Magento, Odoo</p></p>
+                </article>
+                <article className="competences__container-box">
                     <p className="competences__name">Autres : <p className='competences__content'>Windows, Mac OS, GitHub, VsCode, Insomnia</p></p>
+                </article>
+                <article className="competences__container-box">
+                    <p className="competences__name">Méthodes de travail : <p className='competences__content'>Agile, Scrum, Kanban</p></p>
                 </article>
                 <article className="competences__container-box">
                     <p className="competences__name">Savoir-être : <p className='competences__content'>Organisation, rigueur, capacité d'adaptation</p></p>
