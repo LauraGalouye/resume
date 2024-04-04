@@ -16,11 +16,9 @@ const Presentation = () => {
             <p className="presentation__job">Développeur web</p>
             <p className="presentation__availability">Disponibilité Immédiate</p>
             <p className="presentation__city">Secteur : Toulouse et alentours</p>
-            <a 
-              href={`../../public/pdf/CV2024.pdf`}
-              download="CV2024.pdf"
-              >
-              <p className="presentation__download">Télécharger mon CV</p></a>
+            <a href={`/pdf/CV2024.pdf`} download >
+              <p className="presentation__download">Télécharger mon CV</p>
+            </a>
             <div className="presentation__logos">
               <a href="https://github.com/LauraGalouye" target="_blank"><img className="presentation__logo" src={github} alt="logo github" /></a>
               <a href="https://www.linkedin.com/in/laura-galouye-54322223b" target="_blank"><img className="presentation__logo" src={linkedin} alt="logo linkedin" /></a>
