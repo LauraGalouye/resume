@@ -16,7 +16,7 @@ const Presentation = () => {
             <p className="presentation__job">Développeur web</p>
             <p className="presentation__availability">Disponibilité Immédiate</p>
             <p className="presentation__city">Secteur : Toulouse et alentours</p>
-            <a href={`/pdf/CV2024.pdf`} download >
+            <a href={`/pdf/CV24.pdf`} download >
               <p className="presentation__download">Télécharger mon CV</p>
             </a>
             <div className="presentation__logos">
